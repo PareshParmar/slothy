@@ -8,7 +8,7 @@ print(ascii_banner)
 
 print("Requires python 3")
 print("[+]USAGE:  python slothy.py domain.com\n")
-domain=input("Enter the domain : \t")
+
 
 
 wb.open_new_tab("http://toolbar.netcraft.com/site_report?url=" +domain)
