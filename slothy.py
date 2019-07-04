@@ -10,7 +10,6 @@ print("Requires python 3")
 print("[+]USAGE:  python slothy.py domain.com\n")
 domain=input("Enter the domain : \t")
 
-wb.open_new_tab("http://www.tcpiputils.com/browse/domain/" +domain)
 
 wb.open_new_tab("http://toolbar.netcraft.com/site_report?url=" +domain)
 
